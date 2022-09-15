@@ -1,0 +1,9 @@
+# Install Libraries
+pip install requests
+pip install pandas
+
+# Import Libraries
+from requests import Request, Session
+from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
+import json
+import pandas as pd
