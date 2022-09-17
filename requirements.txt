@@ -1,6 +1,8 @@
 # Install Libraries
 pip install requests
 pip install pandas
+pip install seaborn
+pip install matplotlib
 
 # Import Libraries
 from requests import Request, Session
@@ -11,3 +13,6 @@ import pandas as pd
 import os
 from time import time
 from time import sleep
+
+import seaborn as sns
+import matplotlib as plt
